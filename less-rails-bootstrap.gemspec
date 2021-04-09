@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.require_paths = ['lib']
   # gem.add_runtime_dependency     'less-rails', ['>= 2.6', '<= 2.8']
-  gem.add_runtime_dependency     'less-rails', ['>= 3.0', '<= 4.0']
+  gem.add_runtime_dependency     'less-rails', ['>= 3.0', '<= 5.0']
 
   gem.add_development_dependency 'minitest', '>= 4.0'
   gem.add_development_dependency 'guard-minitest'
